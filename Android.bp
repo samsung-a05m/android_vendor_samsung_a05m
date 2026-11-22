@@ -794,7 +794,7 @@ cc_prebuilt_library_shared {
                 "libmedia_helper",
                 "libladder",
                 "libprocessgroup",
-                "android.hardware.audio.effect-V3-ndk",
+                "android.hardware.audio.effect-V2-ndk",
                 "libfmq",
                 "libbase",
                 "libbluetooth_audio_session_aidl_mtk",

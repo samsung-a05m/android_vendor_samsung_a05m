@@ -1830,6 +1830,7 @@ PRODUCT_PACKAGES += \
     n28sc800csfrontdc_mipi_raw_IdxMgr \
     n28sc800csfrontdc_mipi_raw_tuning \
     sensors.grip \
+    vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
     vendor.mediatek.hardware.camera.frhandler@1.0 \

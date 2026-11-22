@@ -1336,7 +1336,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a05m/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss-service.rc \
     vendor/samsung/a05m/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/a05m/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/samsung/a05m/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/samsung/a05m/proprietary/vendor/etc/locale/plmn_delta_eng.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_eng.bin \
     vendor/samsung/a05m/proprietary/vendor/etc/locale/plmn_delta_zh-rCN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rCN.bin \
     vendor/samsung/a05m/proprietary/vendor/etc/locale/plmn_delta_zh-rHK.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rHK.bin \
@@ -1407,16 +1406,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     VP9SecureVdecCA \
-    android.hardware.audio.common-V3-ndk_mtk \
-    android.hardware.audio.core-V2-ndk_mtk \
     android.hardware.audio.core-impl-mediatek \
-    android.hardware.audio.core.sounddose-V2-ndk_mtk \
-    android.hardware.audio.effect-V2-ndk_mtk \
-    android.hardware.bluetooth.audio-V4-ndk_mtk \
     android.hardware.bluetooth.audio-impl-mediatek \
-    android.hardware.soundtrigger3-V2-ndk_mtk \
-    android.media.audio.common.types-V3-ndk_mtk \
-    android.media.soundtrigger.types-V2-ndk_mtk \
     arm.graphics-V5-ndk \
     arm.mali.platform-V2-ndk \
     camera.device@3.2-impl \
@@ -1841,7 +1832,6 @@ PRODUCT_PACKAGES += \
     sensors.grip \
     vendor.mediatek.hardware.audio-V1-ndk \
     vendor.mediatek.hardware.audio@6.1 \
-    vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
@@ -1859,7 +1849,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mmlpq-V3-ndk \
     vendor.mediatek.hardware.mms-V1-ndk \
-    vendor.mediatek.hardware.mtkpower-V1-ndk \
     vendor.mediatek.hardware.nvram-V1-ndk \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
@@ -1921,7 +1910,6 @@ PRODUCT_PACKAGES += \
     volte_clientapi_ua \
     volte_rcs_ua \
     wifiver_info \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader \
     wvkprov
